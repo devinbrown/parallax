@@ -5,7 +5,7 @@
 
 
 /* Global reset
-   http://meyerweb.com/eric/tools/css/reset/ 
+   http://meyerweb.com/eric/tools/css/reset/
 *****************************************************************/
 
 html, body, div, span, applet, object, iframe,
@@ -17,8 +17,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -29,7 +29,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -55,7 +55,7 @@ table {
 /* Extended base styles (site specific)
 *****************************************************************/
 
-html { 
+html {
 	overflow-y: scroll; /* always force a scrollbar in non-IE */
 	}
 body {
@@ -81,10 +81,10 @@ a:visited {
 	outline: none;
 	text-decoration:none;
 	}
-	a:hover { 
+	a:hover {
 		color:#000;
 		}
-img { 
+img {
 	display:block;
 	}
 p {
@@ -191,39 +191,47 @@ nav.next-prev {
 	padding: 0 10px;
 	margin: 0 auto;
 	line-height: 1.7;
-	}
-	#content article {
-		width: 300px;
-		}
-		#manned-flight ,
-		#frameless-parachute,
-		#english-channel,
-		#about {
-			padding-top: 105px;
-			}
-		#manned-flight {
-			position: absolute;
-			top: 0px;
-			}
-		#frameless-parachute {
-			position: absolute;
-			top: 1090px;
-			}
-		#english-channel {
-			position: absolute;
-			top: 2180px;
-			}
-			#content h1 {
-				margin: 0 0 25px 0;
-				font-size: 60px;
-				font-family: Georgia, serif;
-				font-weight: normal;
-				line-height: 65px;
-				}
-		#about {
-			position: absolute;
-			top: 3270px;
-			}
+}
+
+#content article {
+	width: 300px;
+}
+
+#manned-flight ,
+#frameless-parachute,
+#english-channel,
+#about {
+	padding-top: 105px;
+}
+
+#manned-flight {
+	position: absolute;
+	top: 0px;
+}
+
+#frameless-parachute {
+	position: absolute;
+	top: 1090px;
+}
+
+#english-channel {
+	position: absolute;
+	top: 2180px;
+}
+
+#content h1 {
+	margin: 0 0 25px 0;
+	font-size: 60px;
+	font-family: Georgia, serif;
+	font-weight: normal;
+	line-height: 65px;
+}
+
+#about {
+position: absolute;
+	top: 3270px;
+}
+
 /* foreground (ballons/landscape) */
 #parallax-bg3 {
 	z-index: 3;
