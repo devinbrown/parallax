@@ -40,9 +40,3 @@ body {
   overflow-y: hidden;
   width: 100%;
 }
-
-#test-footer {
-  height : 500px;
-  width: 100%;
-  background-color: pink;
-}

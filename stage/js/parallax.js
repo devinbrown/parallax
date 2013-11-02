@@ -4,11 +4,7 @@ $(document).ready(function() {
   updateCurtainHeight();
 
   $(window).bind('scroll',function(e){
-
-    var scrolled = $(window).scrollTop();
-
-    zoomImage(scrolled, '#first-image');
-    parallaxScroll(scrolled, '#banner');
+    parallaxScroll($(window).scrollTop(), '#banner');
   });
 
   $(window).resize(function() {
@@ -19,21 +15,12 @@ $(document).ready(function() {
     $('#curtain').height($(window).height());
   }
 
-  function zoomImage(scrolled, target) {
-    var zoomRate = (scrolled / 4000) + 1;
-    if (zoomRate > 1) {
-      $(target).css('transform', 'scale(' + zoomRate + ',' + zoomRate + ')');
-      $(target).css('-ms-transform', 'scale(' + zoomRate + ',' + zoomRate + ')');
-      $(target).css('-webkit-transform', 'scale(' + zoomRate + ',' + zoomRate + ')');
-    }
-  }
-
   function parallaxScroll(scrolled, target){
     $(target).css('top',(80-(scrolled*0.10))+'%');
   }
 });
 
 window.onload = function() {
-  $('#curtain #banner').delay(200).fadeIn(1200);
+  $('#curtain #banner').delay(200).fadeIn(1500);
 }
 
