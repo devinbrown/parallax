@@ -10,6 +10,7 @@ body {
   background-size: cover;
   width: 100%;
   position: relative;
+  z-index : 2;
 }
 
 #curtain #banner {
@@ -38,4 +39,10 @@ body {
   overflow-x: hidden;
   overflow-y: hidden;
   width: 100%;
+}
+
+#test-footer {
+  height : 500px;
+  width: 100%;
+  background-color: pink;
 }
