@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+}
+
+#curtain {
+  background-image: url(../img/moab.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+}
